@@ -72,11 +72,18 @@ footer {
   line-height: 80px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 /* Estilo home: */
 .games {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin: 40px 0;
 }
 
 .game {
@@ -84,39 +91,32 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: -200px;
-    
+}
+
+.game a {
+  text-decoration: none;
+  color: #1E1E1E;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .game img {
     width: 210px;
     height: auto;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .game-title {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 32px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .game-subtitle {
     font-size: 17px;
-}
-
-.footer {
-    margin-top: 60px;
-    display: flex;
-    gap: 150px;
-}
-
-.footer a {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-}
-
-.footer a:hover {
-    text-decoration: underline;
 }
 
 /* Estilo sobre: */
@@ -126,7 +126,7 @@ footer {
         
     #cabeçalho-Sobre {
         text-align: center;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .leaderboard-Sobre{
@@ -176,6 +176,11 @@ button:hover {
 
 .integrantes a {
   color: #1E1E1E;
+}
+
+footer a {
+  color: #1E1E1E;
+  text-decoration: none;
 }
   
 /* Estilo contato: */
@@ -249,7 +254,7 @@ input, textarea {
 }
 
 /* Estilo tutorial snake: */
-#section-one-tutorial, #section-two-tutorial {
+.section-one, .section-two {
   width: 100%;
   text-align: center;
   padding: 10px;
@@ -268,4 +273,3 @@ input, textarea {
 }
   
 /* Estilo em breve: */
-}
