@@ -38,6 +38,21 @@ h1 {
 /* Estilo sobre: */
 
 
+#centralizar-Sobre {  
+        text-align: center;
+    }
+        
+    #cabeçalho-Sobre {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .leaderboard-Sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 /* Estilo contato: */
