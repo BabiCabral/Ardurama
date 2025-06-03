@@ -5,7 +5,6 @@
        url('joystix.woff') format('woff');
 }
 
-
 /* Estilo geral: */
 body {
     font-family: joystix, sans-serif;
@@ -14,23 +13,145 @@ body {
     background: radial-gradient(circle, #355C17 0%, #597F2C 100%);
 }
 
+header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  padding: 0 40px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  font-size: 34px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
 h1 {
-    font-size: 88px;
+    font-size: 5.5rem;
   }
   
   h2 {
-    font-size: 70px;
+    font-size: 4.375rem;
   }
   
   h3 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
   
   p {    
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+footer {
+  height: 120px;
+  text-align: center;
+  line-height: 80px;
+}
+  
+h1 {
+
 /* Estilo home: */
+.games {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -200px;
+    
+}
+
+.game img {
+    width: 210px;
+    height: auto;
+}
+
+.game-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+.game-subtitle {
+    font-size: 17px;
+}
+
+.footer {
+    margin-top: 60px;
+    display: flex;
+    gap: 150px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo sobre: */
+
+
+
+
+/* Estilo contato: */
+
+
+
+
+/* Estilo sobre: */
+
+
+#centralizar-Sobre {  
+        text-align: center;
+    }
+        
+    #cabeçalho-Sobre {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .leaderboard-Sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+/* Estilo contato: */
 
 
 
@@ -61,8 +182,23 @@ h1 {
 
 
 /* Estilo tutorial snake: */
+#section-one-tutorial, #section-two-tutorial {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
+#steps {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-
-
+#steps td {
+  font-size: 1.5rem;
+  padding: 30px;
+  box-sizing: border-box;
+}
+  
 /* Estilo em breve: */
+}
