@@ -10,4 +10,14 @@
       height: auto;
       padding: 20px 20px;
     }
+
+    #section-one-tutorial h1 {
+      font-size: 4.375rem;
+    }
+    
+    #steps td {
+      font-size: 1rem;
+      padding: 20px;
+      box-sizing: border-box;
+    }
   }
