@@ -42,22 +42,6 @@ nav a {
   color: #1E1E1E;
 }
 
-h1 {
-    font-size: 5.5rem;
-  }
-  
-  h2 {
-    font-size: 4.375rem;
-  }
-  
-  h3 {
-    font-size: 3.125rem;
-  }
-  
-  p {    
-    font-size: 2.125rem;
-  }
-
 main {
   display: flex;
   flex-direction: column;
@@ -66,13 +50,27 @@ main {
   align-items: flex-start;
 }
 
+h1 {
+    font-size: 5.5rem;
+  }
+  
+h2 {
+    font-size: 4.375rem;
+}
+  
+h3 {
+    font-size: 3.125rem;
+}
+  
+p {
+    font-size: 2.125rem;
+}
+
 footer {
   height: 120px;
   text-align: center;
   line-height: 80px;
 }
-  
-h1 {
 
 /* Estilo home: */
 .games {
@@ -122,18 +120,6 @@ h1 {
 }
 
 /* Estilo sobre: */
-
-
-
-
-/* Estilo contato: */
-
-
-
-
-/* Estilo sobre: */
-
-
 #centralizar-Sobre {  
         text-align: center;
     }
@@ -150,36 +136,117 @@ h1 {
         justify-content: center;
     }
 
+button {
+  background: #1E1E1E;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Joystix', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
 
+button:hover {
+  background: #355C17;
+}
+
+.integrantes {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48vw;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.integrantes li {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.integrantes li p {
+  margin: 0.25rem 0;
+  font-size: 18px;
+}
+
+.integrantes a {
+  color: #1E1E1E;
+}
+  
 /* Estilo contato: */
+.pagina-contato {
+  padding: 2rem;
+  box-sizing: border-box;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
+nav.menu {
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
+nav.menu p {
+  display: inline-block;
+  margin: 0 1.5rem;
+  cursor: pointer;
+  font-size: 16px;
+  color: #1E1E1E;
+  user-select: none;
+}
 
+nav.menu p:hover {
+  text-decoration: underline;
+}
 
-/* Estilo sobre: */
+.pagina-contato h1 {
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 2rem;
+}
 
+.contato-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
 
-#centralizar-Sobre {  
-        text-align: center;
-    }
-        
-    #cabeçalho-Sobre {
-        text-align: center;
-        text-decoration: underline;
-    }
+form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48vw;
+  padding: 2rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: transparent;
+}
 
-    .leaderboard-Sobre{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #1E1E1E;
+}
 
-
-/* Estilo contato: */
-
-
-
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 3px solid #1E1E1E;
+  border-radius: 5px;
+  font-family: 'Joystix', sans-serif;
+  font-size: 24px;
+  color: #1E1E1E;
+  background: transparent;
+  box-sizing: border-box;
+}
 
 /* Estilo tutorial snake: */
 #section-one-tutorial, #section-two-tutorial {
