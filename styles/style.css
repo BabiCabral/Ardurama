@@ -7,27 +7,60 @@
 
 
 /* Estilo geral: */
+html {
+  font-size: 100%;
+}
+
 body {
     font-family: joystix, sans-serif;
-    font-size: 34px;
+    font-size: 2.125rem;
     color: #1E1E1E;
     background: radial-gradient(circle, #355C17 0%, #597F2C 100%);
 }
 
+header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  padding: 0 40px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  font-size: 34px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
 h1 {
-    font-size: 88px;
+    font-size: 5.5rem;
   }
   
   h2 {
-    font-size: 70px;
+    font-size: 4.375rem;
   }
   
   h3 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
   
   p {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
 /* Estilo home: */
@@ -46,6 +79,7 @@ h1 {
 
 
 /* Estilo tutorial snake: */
+
 
 
 
