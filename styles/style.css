@@ -41,7 +41,55 @@ h1 {
 
 
 /* Estilo contato: */
+.pagina-contato h1 {
+  text-align: left;
+  color: #1E1E1E;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
 
+.pagina-contato form {
+  max-width: 800px;
+  margin: 2rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.pagina-contato label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #1E1E1E;
+}
+
+.pagina-contato input,
+.pagina-contato textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid #1E1E1E;
+  border-radius: 5px;
+  font-family: 'Joystix', sans-serif;
+  font-size: 24px;
+  color: #1E1E1E;
+}
+
+.pagina-contato button {
+  background: #1E1E1E;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Joystix', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pagina-contato button:hover {
+  background: #355C17;
+}
 
 
 
