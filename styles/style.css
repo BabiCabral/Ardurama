@@ -74,8 +74,84 @@ nav.menu p:hover {
 
 .contato-container {
   display: flex;
-  justify-content: space-betw
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  max-width: 100vw;
+  box-sizing: border-box;
 }
+
+form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48vw;
+  padding: 2rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #1E1E1E;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 3px solid #1E1E1E;
+  border-radius: 5px;
+  font-family: 'Joystix', sans-serif;
+  font-size: 24px;
+  color: #1E1E1E;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+button {
+  background: #1E1E1E;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Joystix', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background: #355C17;
+}
+
+.integrantes {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48vw;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.integrantes li {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.integrantes li p {
+  margin: 0.25rem 0;
+  font-size: 14px;
+}
+
+.integrantes a {
+  color: #1E1E1E;
+}
+
 
 
 /* Estilo tutorial snake: */
