@@ -31,9 +31,86 @@ h1 {
   }
 
 /* Estilo home: */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
 
+h1 {
+    margin-bottom: 415px;
+    text-shadow:
+        1px 1px 0 black,
+       -1px 1px 0 black,
+        1px -1px 0 black,
+       -1px -1px 0 black;
+}
 
+.games {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
 
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -200px;
+    
+}
+
+.game img {
+    width: 210px;
+    height: auto;
+    image-rendering: pixelated;
+}
+
+.game-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 32px;
+    text-shadow:
+        1px 1px 0 black,
+       -1px 1px 0 black,
+        1px -1px 0 black,
+       -1px -1px 0 black;
+}
+
+.game-subtitle {
+    font-size: 17px;
+    text-shadow:
+        1px 1px 0 black,
+       -1px 1px 0 black,
+        1px -1px 0 black,
+       -1px -1px 0 black;
+}
+
+.footer {
+    margin-top: 60px;
+    display: flex;
+    gap: 150px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-shadow:
+        1px 1px 0 black,
+       -1px 1px 0 black,
+        1px -1px 0 black,
+       -1px -1px 0 black;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
 
 /* Estilo sobre: */
 
